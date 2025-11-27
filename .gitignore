@@ -1,0 +1,19 @@
+# Ignorar arquivos executáveis (Windows e Linux/macOS)
+*.exe
+*.out
+*.app
+
+# Ignorar a pasta bin inteira (onde ficam os executáveis e dados locais)
+bin/
+
+# Ignorar arquivos de dados da agenda (caso fiquem fora da pasta bin)
+*.bin
+
+# Ignorar arquivos temporários e de backup
+*.bak
+*.tmp
+*~
+
+# Ignorar pastas de configuração de IDEs
+.vscode/
+.idea/
